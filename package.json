@@ -1,0 +1,27 @@
+{
+  "name": "ebay-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksabanty/ebay-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksabanty/ebay-scraper/issues"
+  },
+  "homepage": "https://github.com/ksabanty/ebay-scraper#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
